@@ -1,6 +1,8 @@
 # db_taskmanager
 It's a database for task manager.   It used ORACLE SQL, PL/SQL.
 
+This project is to demonstrate my knowledge in PL/SQL
+
 ## Prerequisites
 1. You must a Oracle Database higher than 19c
 
