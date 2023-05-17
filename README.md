@@ -1,6 +1,8 @@
 # db_taskmanager
 It's a database for task manager.   It used ORACLE SQL, PL/SQL.
 
+![](https://github.com/garestrepop/db_taskmanager/blob/main/er_model.png)
+
 **This project is to demonstrate my knowledge in PL/SQL**
 
 ## Prerequisites
