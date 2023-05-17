@@ -1,0 +1,91 @@
+Creando Tablas del Modelo
+Table E_AUDIT
+Transcurrido: 00:00:00.09
+Index E_AUDITORIA_PK
+Transcurrido: 00:00:00.09
+Transcurrido: 00:00:00.08
+Table E_COUNTRY
+Transcurrido: 00:00:00.08
+Index E_COUNTRY_PK
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.08
+Table E_MUNICIPALITY
+Transcurrido: 00:00:00.07
+Index E_MUNICIPALITY_PK
+Transcurrido: 00:00:00.09
+Transcurrido: 00:00:00.08
+Table E_PROJECT
+Transcurrido: 00:00:00.09
+Index E_PROJECT_PK
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.08
+Table E_STATES
+Transcurrido: 00:00:00.07
+Index E_STATES_PK
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.09
+Table E_TASK
+Transcurrido: 00:00:00.08
+Index E_TASK_PK
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.08
+Table E_USER
+Transcurrido: 00:00:00.08
+Index E_USER_PK
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.08
+Sequence SECAUDITID
+CREATE SEQUENCE GRESTRP.SECAUDITID
+                        *
+ERROR en línea 1:
+ORA-00955: este nombre ya lo está utilizando otro objeto existente 
+
+
+Transcurrido: 00:00:00.12
+Synonym E_AUDIT
+Transcurrido: 00:00:00.08
+Synonym E_COUNTRY
+Transcurrido: 00:00:00.07
+Synonym E_MUNICIPALITY
+Transcurrido: 00:00:00.07
+Synonym E_PROJECT
+Transcurrido: 00:00:00.07
+Synonym E_STATES
+Transcurrido: 00:00:00.08
+Synonym E_TASK
+Transcurrido: 00:00:00.09
+Synonym E_USER
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.10
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.10
+Transcurrido: 00:00:00.08
+Insertando Datos en las Tablas del Modelo
+Insertando en E_COUNTRY
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Insertando en E_MUNICIPALITY
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.08
+Insertando en E_STATES
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Insertando en E_USER
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.08
+Insertando en E_PROJECT
+Transcurrido: 00:00:00.07
+Transcurrido: 00:00:00.07
+Insertando en E_TASK
+Transcurrido: 00:00:00.08
+Transcurrido: 00:00:00.07
