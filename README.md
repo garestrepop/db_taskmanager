@@ -1,36 +1,34 @@
 # db_taskmanager
 It's a database for task manager.   It used ORACLE SQL, PL/SQL.
 
-# Prerequisites
+## Prerequisites
 1. You must a Oracle Database higher than 19c
 
-# Install
+## Install
 1. Clone this respository
 2. Put on ..\scripts
 3. Connect to Oracle Database using sqlplus
         sqlplus user/password@yourOracleDataBase
-4. Execute scripts\createmodel.sql
-    SQL> @createmodel.sql
-5. Execute scripts\createpkregisteraudit.sql
-    SQL> @createpkregisteraudit.sql
-6. Execute scripts\createpkmanageruser.sql
-    SQL> @createpkmanageruser.sql
-7. Execute scripts\createtriggertaskaudit.sql
-    SQL> @createtriggertaskaudit.sql
+4. Execute scripts\createmodel.sql    
+5. Execute scripts\createpkregisteraudit.sql    
+6. Execute scripts\createpkmanageruser.sql    
+7. Execute scripts\createtriggertaskaudit.sql    
 8. Execute scripts\createviewprojectuser.sql
-    SQL> @createviewprojectuser.sql
 
-# This Application have:
+### Example to execute in sqlplus
+    SQL> @createmodel.sql   
+
+## This Application have:
 * A Package whit CRUD of Users.
 * A Package to record audit
 * A view to select projects by users.
 
-# Examples
+## Examples
 
-Example 1.
-/*
-    This anonymous procedure creates a user using pk_manageruser.prCreateUser procedure.
-*/
+### Example 1.
+This anonymous procedure creates a user using pk_manageruser.prCreateUser procedure
+
+```PLSQL
 DECLARE
     recUser E_USER%ROWTYPE;
 BEGIN
@@ -52,12 +50,12 @@ BEGIN
     pk_manageruser.prCreateUser(recUser);        
 --           
 END;
+```
 
-Example 2.
+### Example 2.
+This anonymous procedure retrieves the information of all users in json format
 
-/*
-   This anonymous procedure retrieves the information of all users in json format
-*/
+```PLSQL
 DECLARE
     cdata CLOB;
 BEGIN
@@ -66,5 +64,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(SUBSTR(cdata,0,4000));
 --           
 END;
+```
 
-# Enjoy this application using PLSQL.
+## Enjoy this application using PLSQL.
